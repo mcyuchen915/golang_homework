@@ -1,4 +1,4 @@
-module main
+module homework
 
 go 1.26
 
