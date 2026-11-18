@@ -194,7 +194,7 @@ func RemoveDuplicates(nums []int) int {
 将当前区间与切片中最后一个区间进行比较，如果有重叠，则合并区间；如果没有重叠，则将当前区间添加到切片中。
 */
 func Merge(intervals [][]int) [][]int {
-	if len(intervals) <= 1 {
+	if len(intervals) < 1 {
 		return nil
 	}
 	// 先对区间数组按照区间的起始位置进行排序（从小到大）,sort.Slice是Go标准库的接受一个比较函数作为参数
