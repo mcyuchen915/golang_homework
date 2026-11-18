@@ -1,4 +1,4 @@
-name: Homework Auto-Grading
+name: Homework Auto-Go-Test
 
 on:
   push:
